@@ -1,0 +1,70 @@
+{
+"scope_brackets": [
+        // Quotes
+        {
+            "name": "py_single_quote",
+            "open": "(?:u|b|f)?r?((?:'')?')",
+            "close": "((?:'')?')",
+            "style": "single_quote",
+            "scopes": ["string", "meta.string"],
+            "language_filter": "whitelist",
+            "language_list": [
+                "Python",
+                "PythonImproved",
+                "MagicPython"
+            ],
+            "sub_bracket_search": "true",
+            "plugin_library": "bh_modules.pyquotes",
+            "enabled": false
+        },
+        {
+            "name": "py_double_quote",
+            "open": "(?:u|b|f)?r?((?:\"\")?\")",
+            "close": "((?:\"\")?\")",
+            "style": "double_quote",
+            "scopes": ["string", "meta.string"],
+            "language_filter": "whitelist",
+            "language_list": [
+                "Python",
+                "PythonImproved",
+                "MagicPython"
+            ],
+            "sub_bracket_search": "true",
+            "plugin_library": "bh_modules.pyquotes",
+            "enabled": false
+        },
+        {
+            "name": "single_quote",
+            "open": "(')",
+            "close": "(')",
+            "style": "single_quote",
+            "scopes": ["string", "string.quoted"],
+            "language_filter": "blacklist",
+            "language_list": ["Plain text", "Hex"],
+            "sub_bracket_search": "true",
+            "enabled": false
+        },
+        {
+            "name": "double_quote",
+            "open": "(\")",
+            "close": "(\")",
+            "style": "double_quote",
+            "scopes": ["string", "string.quoted"],
+            "language_filter": "blacklist",
+            "language_list": ["Plain text", "Hex"],
+            "sub_bracket_search": "true",
+            "enabled": false
+        },
+        {
+            "name": "backtick_quote",
+            "open": "(`)",
+            "close": "(`)",
+            "style": "single_quote",
+            "scopes": ["string.interpolated.ruby", "string.interpolated.backtick.shell"],
+            "language_filter": "whitelist",
+            "language_list": ["Ruby", "Shell-Unix-Generic"],
+            "sub_bracket_search": "true",
+            "enabled": false
+        },
+    ],
+}

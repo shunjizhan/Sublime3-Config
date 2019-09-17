@@ -1,0 +1,32 @@
+{
+	"accent_color": "#f2865e",
+    "selection_background_color": [
+        "specify",
+        ["rgba", 242, 134, 94, 0.3],
+        ["rgba", 255, 0, 0, 0.9]
+    ],
+    "comment_font_style": "italic",
+    "parameter_variable_foreground_color": [
+        "specify",
+        ["rgba", 242, 134, 94, 1],
+        ["rgba", 255, 0, 0, 0.09]
+    ],
+    // "keyword_foreground_color": "#4dff88",
+    // "label_foreground_color": "#4dff88",
+    // "function_variable_foreground_color": "$yellowish_color",
+    "support_function_foreground_color": "$bluish_color",
+    "function_foreground_color": "$greenish_color",
+    "string_foreground_color": "#FFE792",
+
+    "annotation_punctuation_foreground_color": "#f44242",
+    // "string_foreground_color": "$greenish_color"
+  //   "bracket_highlighter_default_color": "#f44242",
+  // "bracket_highlighter_unmatched_color": "#f44242",
+  // "bracket_highlighter_quote_color": "#f44242",
+  // "bracket_highlighter_curly_color": "#f44242",
+  // "bracket_highlighter_round_color": "#f44242",
+  // "bracket_highlighter_square_color": "#f44242",
+  // "bracket_highlighter_angle_color": "#f44242",
+  // "bracket_highlighter_tag_color": "#f44242",
+  //   "bracket_highlighter_default_color": "#f44242",
+}

@@ -1,0 +1,40 @@
+{
+	"added_words":
+	[
+		"Starbucks",
+		"Diagonalisation",
+		"Diagonalization"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/DA UI/DA Dark.tmTheme",
+	"fade_fold_buttons": false,
+	"font_face": "Monaco",
+	"font_size": 13,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"D",
+		"Ethereum",
+		"Materialize",
+		"SublimeLinter-jshint",
+		"Vintage"
+	],
+	"ignored_words":
+	[
+		"Bitcoin",
+		"Procore's",
+		"Shunji",
+		"Shunji's",
+		"Youtube",
+		"Zhan",
+		"Zhan",
+		"online",
+		"詹顺稷",
+		"詹顺稷"
+	],
+	"skin": "DA UI/Origin",
+	"tab_size": 4,
+	"theme": "DA.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"word_wrap": true
+}

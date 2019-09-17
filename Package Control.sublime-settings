@@ -1,0 +1,45 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Agila Theme",
+		"ayu",
+		"Babel",
+		"Boxy Theme",
+		"BracketHighlighter",
+		"DA CS",
+		"DA UI",
+		"ESLint",
+		"Ethereum",
+		"GhostText",
+		"Github Color Theme",
+		"Gutter Color",
+		"JavaScript & NodeJS Snippets",
+		"JSX",
+		"LaTeXTools",
+		"Materialize",
+		"Monokai - Spacegray",
+		"Package Control",
+		"Pretty JSON",
+		"Print to HTML",
+		"Restart",
+		"Sass",
+		"Seti_UI",
+		"Simple Print Function",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-eslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"Theme - Afterglow",
+		"Theme - Gravity",
+		"Theme - SoDaReloaded",
+		"Theme - Spacegray"
+	]
+}
